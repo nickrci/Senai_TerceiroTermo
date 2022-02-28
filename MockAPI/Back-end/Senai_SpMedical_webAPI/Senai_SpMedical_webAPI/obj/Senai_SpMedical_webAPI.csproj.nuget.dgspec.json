@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/strongtech/Desktop/SpMedical/SpMedical_/Senai_SpMedical_webAPI/Senai_SpMedical_webAPI/Senai_SpMedical_webAPI.csproj": {}
+  },
+  "projects": {
+    "/home/strongtech/Desktop/SpMedical/SpMedical_/Senai_SpMedical_webAPI/Senai_SpMedical_webAPI/Senai_SpMedical_webAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/strongtech/Desktop/SpMedical/SpMedical_/Senai_SpMedical_webAPI/Senai_SpMedical_webAPI/Senai_SpMedical_webAPI.csproj",
+        "projectName": "Senai_SpMedical_webAPI",
+        "projectPath": "/home/strongtech/Desktop/SpMedical/SpMedical_/Senai_SpMedical_webAPI/Senai_SpMedical_webAPI/Senai_SpMedical_webAPI.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/strongtech/Desktop/SpMedical/SpMedical_/Senai_SpMedical_webAPI/Senai_SpMedical_webAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/152/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

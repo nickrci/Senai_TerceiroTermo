@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+/* Rule: font-family: font-family: 'Quicksand', sans-serif;; */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
+/* PALLETE LINK: https://coolors.co/162942-4a64b8-859cd0-a7bcdc-de5834-f9fbfc-272c2c */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #D3F2F7;
+    box-shadow: 0px 4px 60px rgba(161, 175, 174, 0.25);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header {
+    height: auto;
+    width: auto;
+}
+
+.sp {
+    height: auto;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+
+.sp a {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-size: 40px;
+    align-self: center;
+    text-align: center;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+}
+
+
+.menu {
+    height: auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.menu a {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    align-self: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.login_btn {
+    height: auto;
+    width: auto;
+    padding: 10px 22px;
+    border: 3px solid #FBFFFF;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}

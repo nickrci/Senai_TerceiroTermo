@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CFDCFF;
+
+}
+
+.container_banner{
+    /* padding-top: 20px; */
+    /* margin-top: 80px; */
+    /* width: 100%; */
+    /* height: 396px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    
+    margin-bottom: 60px;
+}
+
+.container_banner h1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    color:black;
+    /* text-transform: capitalize; */
+}
+
+.botao{
+    width: 274px;
+    height: 54.19px;
+    background-color: #89D9B2;
+    border: 1px solid #89D9B2;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 28px;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h2{
+    margin: 10px 0;
+    font-size: 26px;
+    color: #B3B3B3;
+    font-weight: 800;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.listagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consulta{
+    margin: 25px;
+    width: 50%;
+    height: auto;
+    background: #ACC6E7;
+    border-radius: 25px;
+}
+
+.informacoes_principais{
+    margin: 0 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info{
+    display: flex;
+    margin: 30px 45px;
+}
+
+.chave{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    margin-right: 10px;
+}
+
+.valor{
+    font-size: 19px;
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    margin-right: 10px;
+}
+
+.situacao{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    margin-bottom: 86px;
+    width: 440px;
+    text-align: right;
+}
+
+.situacao i{
+    font-size: 20px;
+    color: #ada8a8;
+    margin: 0 20px;
+}
+
+.status{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    text-align: right;
+}
+
+hr{
+    color: #B3B3B3;
+}
+.informacoes_secundarias{
+    margin: 14px 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.informacoes_secundarias i{
+    font-size: 26px;
+    font-weight: bold;
+    color: #B3B3B3;
+    margin-right: 10px;
+}
+
+.descricao{
+    margin: 14px 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricao i{
+    font-size: 20px;
+    color: #ada8a8;
+    margin: 20px;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_cadastro{
+    width: 100%;
+     background: #ACC6E7;
+     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+}
+
+.inputs label{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.inputs select{
+    width: 280px;
+    height: 35px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding-left: 16px;
+}
+
+.inputs input{
+    width: 280px;
+    height: 35px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding-left: 16px;
+}
+
+.inputs textarea{
+    width: 280px;
+    height: 35px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding-left: 16px;
+}
+
+.campo_{
+    margin: 40px 60px 60px;
+}
+
+.campo{
+    margin: 40px 60px;
+}
+
+#descricao{
+    height: 200px;
+}
+
+.vazio{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    width: auto;
+    overflow: hidden;
+}
